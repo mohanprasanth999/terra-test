@@ -2,6 +2,7 @@ terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
+      credentials = var.sa_key
     }
   }
 }
