@@ -9,3 +9,6 @@ variable "region" {
 variable "zone" {
     default = "asia-south1-a"
 }
+variable sa_key {
+    
+}
